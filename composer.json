@@ -1,0 +1,27 @@
+{
+  "name": "dtr/highcharts",
+    "description": "dTR-HighCharts is a HighCharts Graphing wrapper class",
+    "keywords": ["dtr", "javascript", "json", "highcharts"],
+    "homepage": "https://github.com/mikemackintosh/dTR-HighCharts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Mackintosh",
+            "email": "mike@bakeryframework.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "dTR": "src/"
+        }
+    },
+   "require": {
+        "php": ">=5.4"
+    },
+    "minimum-stability": "dev",
+ 	"extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    }
+}
